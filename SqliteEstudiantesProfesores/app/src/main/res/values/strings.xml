@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SqliteEstudiantesProfesores</string>
+    <string name="menuEstudiante">Añadir Estudiante</string>
+    <string name="añadirProfesor">Añadir Profesor</string>
+    <string name="borrar">Borrar</string>
+    <string name="borrarEstudiante">Borrar un estudiante</string>
+    <string name="borrarProfesor">Borrar un Profesor</string>
+    <string name="borrarBBDD">Borrar la BBDD</string>
+    <string name="menuBuscador">Buscador</string>
+</resources>

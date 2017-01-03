@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.caboc.sqliteestudiantesprofesores.ActivityUsuario">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/imageViewUsuarioActivity"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextIDusuarioAct"
+        android:text="ID"
+        android:textSize="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:enabled="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextNombreUsuarioAct"
+        android:text="Nombre"
+        android:textSize="30dp"
+        android:layout_alignBottom="@+id/imageViewUsuarioActivity"
+        android:layout_toEndOf="@+id/imageViewUsuarioActivity"
+        />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextEdadUsuarioActivity"
+        android:text="35"
+        android:textSize="30dp"
+        android:layout_below="@+id/imageViewUsuarioActivity"
+        android:layout_toEndOf="@+id/imageViewUsuarioActivity"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentBottom="false"
+
+        android:gravity="right"
+        android:editable="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Edad"
+        android:id="@+id/textView14"
+        android:textSize="30dp"
+        android:layout_alignBottom="@+id/editTextEdadUsuarioActivity"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="10dp"
+        android:editable="false" />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextCicloUsuarioAct"
+        android:text="2"
+        android:textSize="30dp"
+        android:editable="true"
+        android:gravity="right"
+        android:layout_below="@+id/editTextEdadUsuarioActivity"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Ciclo"
+        android:id="@+id/textView15"
+        android:textSize="30dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:editable="false"
+        android:layout_marginBottom="10dp" />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextCursoUsuarioAct"
+        android:text="3"
+        android:textSize="30dp"
+        android:editable="true"
+        android:gravity="right"
+        android:layout_below="@+id/editTextCicloUsuarioAct"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Curso"
+        android:id="@+id/textView16"
+        android:textSize="30dp"
+        android:layout_alignBottom="@+id/editTextCursoUsuarioAct"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="5dp" />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextExtraUsuarioAct"
+        android:text="35"
+        android:textSize="30dp"
+        android:editable="true"
+        android:gravity="right"
+        android:layout_below="@+id/editTextCursoUsuarioAct"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Extra"
+        android:id="@+id/textViewExtraUsuarioAct"
+        android:textSize="30dp"
+        android:layout_alignBottom="@+id/editTextExtraUsuarioAct"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="5dp" />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextCargoUsuarioAct"
+        android:text="Estudiante"
+        android:textSize="30dp"
+        android:editable="false"
+        android:gravity="right"
+        android:layout_below="@+id/editTextExtraUsuarioAct"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Cargo"
+        android:id="@+id/textView18"
+        android:textSize="30dp"
+        android:layout_alignBottom="@+id/editTextCargoUsuarioAct"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="ID:"
+        android:id="@+id/textView17"
+        android:textSize="30dp"
+        android:editable="false"
+        android:layout_alignTop="@+id/editTextIDusuarioAct"
+        android:layout_toStartOf="@+id/editTextIDusuarioAct"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Volver"
+        android:id="@+id/buttonSalir"
+        android:layout_below="@+id/editTextCargoUsuarioAct"
+        android:layout_alignEnd="@+id/editTextCargoUsuarioAct" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Modificar"
+        android:id="@+id/buttonModificar"
+        android:layout_below="@+id/editTextCargoUsuarioAct"
+        android:layout_toStartOf="@+id/buttonSalir" />
+
+</RelativeLayout>

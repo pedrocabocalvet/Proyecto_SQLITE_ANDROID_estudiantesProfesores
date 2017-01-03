@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/añadirEstudiante"
+        android:title="@string/menuEstudiante"/>
+
+    <item
+        android:id="@+id/añadirProfesor"
+        android:title="@string/añadirProfesor"/>
+
+    <item
+        android:id="@+id/buscador"
+        android:title="@string/menuBuscador"/>
+
+    <item
+        android:id="@+id/borrar"
+        android:title="@string/borrar">
+
+        <menu>
+            <item android:id="@+id/borrarEstudiante"
+                android:title="@string/borrarEstudiante"/>
+            <item android:id="@+id/borrarProfesor"
+                android:title="@string/borrarProfesor"/>
+            <item android:id="@+id/borrarBBDD"
+                android:title="@string/borrarBBDD"/>
+        </menu>
+    </item>
+</menu>
